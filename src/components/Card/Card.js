@@ -11,10 +11,7 @@ const Card = (props) => {
         </div>
       </div>
       {props.isQuotationImg && (
-        <img
-          src="../../../../testimonials-grid-section-main/images/bg-pattern-quotation.svg"
-          alt=""
-        />
+        <img src="../../assets/bg-pattern-quotation.svg" alt="" />
       )}
       <h1
         className={`heading ${

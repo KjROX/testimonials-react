@@ -41,19 +41,19 @@ body {
   align-items: center;
 }
 .dp1 {
-  background: url(../../testimonials-grid-section-main/images/image-daniel.jpg);
+  background: url(../src/assets/image-daniel.jpg);
 }
 .dp2 {
-  background: url(../../testimonials-grid-section-main/images/image-jonathan.jpg);
+  background: url(../src/assets/image-jonathan.jpg);
 }
 .dp3 {
-  background: url(../../testimonials-grid-section-main/images/image-jeanette.jpg);
+  background: url(../src/assets/image-jeanette.jpg);
 }
 .dp4 {
-  background: url(../../testimonials-grid-section-main/images/image-patrick.jpg);
+  background: url(../src/assets/image-patrick.jpg);
 }
 .dp5 {
-  background: url(../../testimonials-grid-section-main/images/image-kira.jpg);
+  background: url(../src/assets/image-kira.jpg);
 }
 .dps {
   height: 4rem;
