@@ -41,19 +41,19 @@ body {
   align-items: center;
 }
 .dp1 {
-  background: url(../src/assets/image-daniel.jpg);
+  background: url(../src/assets/images/image-daniel.jpg);
 }
 .dp2 {
-  background: url(../src/assets/image-jonathan.jpg);
+  background: url(../src/assets/images/image-jonathan.jpg);
 }
 .dp3 {
-  background: url(../src/assets/image-jeanette.jpg);
+  background: url(../src/assets/images/image-jeanette.jpg);
 }
 .dp4 {
-  background: url(../src/assets/image-patrick.jpg);
+  background: url(../src/assets/images/image-patrick.jpg);
 }
 .dp5 {
-  background: url(../src/assets/image-kira.jpg);
+  background: url(../src/assets/images/image-kira.jpg);
 }
 .dps {
   height: 4rem;

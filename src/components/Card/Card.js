@@ -1,31 +1,37 @@
 const Card = (props) => {
+  const {
+    testimonialNum,
+    dpNum,
+    isBlackNameColor,
+    name,
+    isQuotationImg,
+    isBlackHeadingColor,
+    quoteHeading,
+    isBlackCommentColor,
+    quote,
+  } = props;
+
   return (
-    <div className={`testimonials ${props.testimonialNum}`}>
+    <div className={`testimonials ${testimonialNum}`}>
       <div className="profile">
-        <div className={`dps ${props.dpNum}`}></div>
-        <div
-          className={`name ${props.isBlackNameColor ? "blackNameColor" : ""}`}
-        >
-          <h1>{props.name}</h1>
+        <div className={`dps ${dpNum}`}></div>
+        <div className={`name ${isBlackNameColor ? "blackNameColor" : ""}`}>
+          <h1>{name}</h1>
           <p>Verified Graduate</p>
         </div>
       </div>
-      {props.isQuotationImg && (
-        <img src="../../assets/bg-pattern-quotation.svg" alt="" />
+      {isQuotationImg && (
+        <img src="../../assets/images/bg-pattern-quotation.svg" alt="" />
       )}
       <h1
-        className={`heading ${
-          props.isBlackHeadingColor ? "blackHeadingColor" : ""
-        }`}
+        className={`heading ${isBlackHeadingColor ? "blackHeadingColor" : ""}`}
       >
-        {props.quoteHeading}
+        {quoteHeading}
       </h1>
       <p
-        className={`comment ${
-          props.isBlackCommentColor ? "blackCommentColor" : ""
-        }`}
+        className={`comment ${isBlackCommentColor ? "blackCommentColor" : ""}`}
       >
-        {props.quote}
+        {quote}
       </p>
     </div>
   );
